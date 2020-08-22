@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Oz3D for 3d Photos and Australian 3D items (mainly)
 
 You can use the [editor on GitHub](https://github.com/oz3d/oz3d/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
