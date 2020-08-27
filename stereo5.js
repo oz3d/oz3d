@@ -448,68 +448,68 @@ function KeyEvent(e){
 	draw();
 	}
  
-   else if(Keynum==97) {	//0  : Parallel
+   else if(Keynum==97) {	//0 Â : Parallel
 	stype=0;
 	draw();
 	}
 
-   else if(Keynum==98) {	//1  : Cross
+   else if(Keynum==98) {	//1 Â : Cross
 	stype=1;
 	draw();
 	}
 	
-   else if(Keynum==99) {	//2  : Dubois-Anaglyph
+   else if(Keynum==99) {	//2 Â : Dubois-Anaglyph
 	stype=2;
 	draw();
 	}
 
-   else if(Keynum==100) {	//9  : SPM-Anaglyph
+   else if(Keynum==100) {	//9 Â : SPM-Anaglyph
 	stype=9;
 	draw();
 	}
 	
-   else if(Keynum==101) {	//3  : Color-Anaglyph
+   else if(Keynum==101) {	//3 Â : Color-Anaglyph
 	stype=3;
 	draw();
 	}
 
-   else if(Keynum==102) {	//4  : BW-Anaglyph
+   else if(Keynum==102) {	//4 Â : BW-Anaglyph
 	stype=4;
 	draw();
 	}
 	
-   else if(Keynum==103) {	//5  : Interlaced
+   else if(Keynum==103) {	//5 Â : Interlaced
 	stype=5;
 	draw();
 	}
 
-   else if(Keynum==104) {	//6  : V-Interlaced
+   else if(Keynum==104) {	//6 Â : V-Interlaced
 	stype=6;
 	draw();
 	}
 
-   else if(Keynum==105) {	//7  : Single
+   else if(Keynum==105) {	//7 Â : Single
 	stype=7;
 	draw();
 	}
 
-   else if(Keynum==96) {	//8  : SBS50
+   else if(Keynum==96) {	//8 Â : SBS50
 	stype=8;
 	draw();
 	}
 				
-   else if(Keynum==73) {	//I  : Interlaced
+   else if(Keynum==73) {	//I Â : Interlaced
 	stype=5;
 	draw();
 	}	
 	
-   else if(Keynum==84) {	//T  : Toggle All Modes
+   else if(Keynum==84) {	//T Â : Toggle All Modes
 	stype=stype+1;
 	if(stype>9) stype=stype=0;
 	draw();
 	}
 
-   else if(Keynum==83) {	//S  : Toggle SBS Modes
+   else if(Keynum==83) {	//S Â : Toggle SBS Modes
      if (stype==0) {
      stype=stype=8  //true, switch to SBS50
      } else {
