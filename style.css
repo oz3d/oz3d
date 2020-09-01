@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   background: #000;
   font-family: sans-serif;
+  font-size: 20px; <!-- changed em size standard 16 px to 20 -->
   display: flex;
   justify-content: center;
   align-items: center;
